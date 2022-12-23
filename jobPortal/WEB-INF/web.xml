@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>	
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>MyPack.Signup</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>MyPack.UserLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddRecord</servlet-name>
+		<servlet-class>MyPack.AddRecord</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateRecord</servlet-name>
+		<servlet-class>MyPack.UpdateRecord</servlet-class>
+	</servlet>
+	<servlet>	
+		<servlet-name>DeleteRecord</servlet-name>
+		<servlet-class>MyPack.DeleteRecord</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddRecord</servlet-name>
+		<url-pattern>/AddRecord</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UpdateRecord</servlet-name>
+		<url-pattern>/UpdateRecord</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteRecord</servlet-name>
+		<url-pattern>/DeleteRecord</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
